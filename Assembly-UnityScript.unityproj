@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A418276A-94D6-0C6E-E97B-CA42FE22BBA3}</ProjectGuid>
+	<ProjectGuid>{41F4E3CF-A4EB-4D31-22F7-FC67D6B2239D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -52,7 +52,7 @@
      <None Include="Assets\VisualizerStudio\Editor\VisualizerStudioEditor.xml" />
      <None Include="Assets\VisualizerStudio\Scripts\VisualizerStudio.xml" />
  <Reference Include="VisualizerStudio">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/Space Shooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
+ <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
