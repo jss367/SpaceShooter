@@ -17,6 +17,8 @@ public class GameController : MonoBehaviour
 	private bool gameOver;
 	private bool restart;
 	private int score;
+
+	public float[] spectrum;
 	
 	void Start ()
 	{
@@ -38,7 +40,23 @@ public class GameController : MonoBehaviour
 				Application.LoadLevel (Application.loadedLevel);
 			}
 		}
+
+		spectrum = audio.GetSpectrumData(1024, 0, FFTWindow.BlackmanHarris);
+		//Debug.Log (spectrum);
+		//GUI.Label (Rect (10, 10, 100, 30), spectrum.ToString());
+		int i = 1;
+		while (i < 1023) {
+			Debug.DrawLine(new Vector3(i - 1, spectrum[i] + 10, 0), new Vector3(i, spectrum[i + 1] + 10, 0), Color.red);
+			Debug.DrawLine(new Vector3(i - 1, Mathf.Log(spectrum[i - 1]) + 10, 2), new Vector3(i, Mathf.Log(spectrum[i]) + 10, 2), Color.cyan);
+			Debug.DrawLine(new Vector3(Mathf.Log(i - 1), spectrum[i - 1] - 10, 1), new Vector3(Mathf.Log(i), spectrum[i] - 10, 1), Color.green);
+			Debug.DrawLine(new Vector3(Mathf.Log(i - 1), Mathf.Log(spectrum[i - 1]), 3), new Vector3(Mathf.Log(i), Mathf.Log(spectrum[i]), 3), Color.yellow);
+			i++;
+		}
+
+
 	}
+
+
 	
 	IEnumerator SpawnWaves ()
 	{
