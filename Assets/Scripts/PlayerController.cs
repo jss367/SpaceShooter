@@ -74,13 +74,13 @@ public class PlayerController : MonoBehaviour {
 		rigidbody.velocity += (desiredVelocity - rigidbody.velocity) * velocityLag;
 
 
-		rigidbody.position = new Vector3
+	/*	rigidbody.position = new Vector3
 		(
 			Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
 		    0.0f, 
 			Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
 		);
-
+*/
 		rigidbody.rotation = Quaternion.Euler(0.0f, 0.0f, rigidbody.velocity.x * -tilt);
 	}
 }

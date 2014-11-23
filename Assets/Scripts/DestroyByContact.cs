@@ -30,6 +30,7 @@ public class DestroyByContact : MonoBehaviour
 		if (other.tag == "Player")
 		{
 			Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+			Debug.Log("We have destroyed by contact");
 			gameController.GameOver ();
 		}
 		gameController.AddScore (scoreValue);
