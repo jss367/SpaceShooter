@@ -13,7 +13,7 @@ public class MusicPicker : MonoBehaviour
 
 
 		
-		AudioBrowser.OnPicked += (audio) =>
+		/*AudioBrowser.OnPicked += (audio) =>
 		{
 			_audio = string.Format(
 				"Id: {0}\nUri: {1}\nPath: {2}\nTitle: {3}\nArtist: {4}",
@@ -22,7 +22,7 @@ public class MusicPicker : MonoBehaviour
 		AudioBrowser.OnPickCanceled += () =>
 		{
 			_audio = "Audio pick canceled";
-		};
+		};*/
 
 	}
 	
@@ -37,7 +37,7 @@ public class MusicPicker : MonoBehaviour
 		{
 			if (GUILayout.Button("Pick Audio"))
 			{
-				AudioBrowser.Pick();
+				//AudioBrowser.Pick();
 			}
 			GUILayout.TextArea(_audio);
 		}

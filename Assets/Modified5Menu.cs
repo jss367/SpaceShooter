@@ -19,7 +19,8 @@ namespace FMG
 
 		public void Start()
 		{
-				AudioBrowser.OnPicked += (audio) =>
+
+/*				AudioBrowser.OnPicked += (audio) =>
 				{
 						_audio = string.Format (
 					"Id: {0}\nUri: {1}\nPath: {2}\nTitle: {3}\nArtist: {4}",
@@ -29,7 +30,7 @@ namespace FMG
 				{
 						_audio = "Audio pick canceled";
 				};
-		}
+	*/	}
 
 		public void Awake()
 		{
@@ -43,13 +44,14 @@ namespace FMG
 		{
 			if(str.Equals("LevelSelect"))
 			{
-				if(useLevelSelect)
-				{
-					levelSelectMenu.SetActive(true);
-					mainMenu.SetActive(false);
-				}else{
-					Application.LoadLevel(1);
-				}
+				Application.LoadLevel(1); //Temporary for debug
+				//if(useLevelSelect)
+				//{
+				//	levelSelectMenu.SetActive(true);
+			//		mainMenu.SetActive(false);
+			//	}else{
+			//		Application.LoadLevel(1);
+			//	}
 			}
 			
 			if(str.Equals("LevelSelectBack"))

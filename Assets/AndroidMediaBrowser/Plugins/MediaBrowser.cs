@@ -113,7 +113,7 @@ namespace AndroidMediaBrowser
 				InvokeOnPickCanceled();
 				return;
 			}
-			
+
 			InvokeOnPicked(media);
 		}
 		

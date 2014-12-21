@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using AndroidMediaBrowser;
 
+[RequireComponent(typeof(AudioSource))]
 public class GameController : MonoBehaviour
 {
 	public GameObject hazard;
@@ -19,7 +21,11 @@ public class GameController : MonoBehaviour
 	private int score;
 
 	private bool itsOver;
-	
+
+	public float gameRestartDelay = 2f;
+
+	Audio _track = null;
+
 	void Start ()
 	{
 		gameOver = false;
@@ -31,13 +37,63 @@ public class GameController : MonoBehaviour
 
 		Debug.Log (itsOver + "itsOver");
 		//	btest = true;
-		GameOver ();
+		//GameOver ();
 		//GafeOver();
 
+		//temp del
+
+
+		
+		//audio.Stop ();
+		//audio.isPlaying = false;
+			//AudioBrowser.OnPicked += OnPicked;
+		AudioBrowser.OnPickCanceled += () =>
+		{
+			//GameOver ();
+		};
+		AudioBrowser.OnPicked += MyOnPicked;
+
+			AudioBrowser.Pick();
+	
+
+
+
+		// del temp
 
 		//		StartCoroutine (SpawnWaves ());
 	}
 
+
+	
+	//temp del
+	
+	public void MyOnPicked(Audio track)
+	{
+		//GameOver();
+		_track = track;
+		//audio.Stop ();
+		StartCoroutine(_track.LoadAudioClip(false, false, AudioType.MPEG));
+		//AudioBrowser.Pick ();
+	}
+
+	//del temp
+
+
+	//temp del
+	public void LateUpdate()
+	{					
+		if (_track != null && _track.AudioClip != null && !audio.isPlaying)
+		{
+
+			//audio.clip = _track.AudioClip;
+			//AudioSource.PlayClipAtPoint(_track.AudioClip, null);
+			audio.PlayOneShot(_track.AudioClip, 0.75f);
+			if(audio.isPlaying)
+				GameOver();
+		}
+	}
+
+	//del temp
 	void Update ()
 	{
 		Debug.Log (itsOver + "itsOver");
@@ -96,7 +152,7 @@ public class GameController : MonoBehaviour
 		gameOver = true;
 	//	Debug.Log (gameOver);
 //temp add
-		restartText.text = "Touch anywhere to Restart or Press 'R'";
+		//restartText.text = "Touch anywhere to Restart or Press 'R'";
 		restart = true;
 		//itsOver = false;
 		//yield return new WaitForSeconds (waveWait);
@@ -110,8 +166,18 @@ public class GameController : MonoBehaviour
 */
 		//temp del
 		itsOver = true;
+
+
+		Invoke ("Restart", gameRestartDelay);
+
 		//GafeOver ();
 	}
+
+	public void Restart()
+	{
+		Application.LoadLevel (Application.loadedLevel);
+	}
+
 
 	void GafeOver()
 	{
