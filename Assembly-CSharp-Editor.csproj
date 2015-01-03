@@ -75,7 +75,6 @@
      <Compile Include="Assets\VisualizerStudio\Editor\Triggers\VisSpawnPrefabTriggerEditor.cs" />
      <Compile Include="Assets\VisualizerStudio\Editor\Triggers\VisTargetTriggerEditor.cs" />
      <Compile Include="Assets\VisualizerStudio\Editor\Utility\VisMicrophoneEditor.cs" />
-     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Dark Future\ReadMe.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
@@ -92,17 +91,11 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="AudioToolkit_FreeVersion">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/AudioToolkit/AudioToolkit/AudioToolkit_FreeVersion.dll</HintPath>
- </Reference>
- <Reference Include="AudioToolkit_FreeVersion_Editor">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/AudioToolkit/AudioToolkit/Editor/AudioToolkit_FreeVersion_Editor.dll</HintPath>
- </Reference>
  <Reference Include="VisualizerStudioEditor">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Editor/VisualizerStudioEditor.dll</HintPath>
+ <HintPath>C:/Users/Julius/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Editor/VisualizerStudioEditor.dll</HintPath>
  </Reference>
  <Reference Include="VisualizerStudio">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
+ <HintPath>C:/Users/Julius/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

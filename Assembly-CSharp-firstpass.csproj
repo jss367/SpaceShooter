@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
-     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Dark Future\ReadMe.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
@@ -61,11 +60,8 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="AudioToolkit_FreeVersion">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/AudioToolkit/AudioToolkit/AudioToolkit_FreeVersion.dll</HintPath>
- </Reference>
  <Reference Include="VisualizerStudio">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
+ <HintPath>C:/Users/Julius/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

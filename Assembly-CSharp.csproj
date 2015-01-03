@@ -64,7 +64,6 @@
      <Compile Include="Assets\AndroidMediaBrowser\Plugins\Media.cs" />
      <Compile Include="Assets\AndroidMediaBrowser\Plugins\MediaBrowser.cs" />
      <Compile Include="Assets\AndroidMediaBrowser\Plugins\Video.cs" />
-     <Compile Include="Assets\AudioToolkit\Demo\AudioToolkitDemo.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
@@ -129,7 +128,6 @@
      <Compile Include="Assets\fileLoader.cs" />
      <Compile Include="Assets\s2.cs" />
      <Compile Include="Assets\streamer.cs" />
-     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Dark Future\ReadMe.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
@@ -143,11 +141,8 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="AudioToolkit_FreeVersion">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/AudioToolkit/AudioToolkit/AudioToolkit_FreeVersion.dll</HintPath>
- </Reference>
  <Reference Include="VisualizerStudio">
- <HintPath>C:/Users/HMGSYS/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
+ <HintPath>C:/Users/Julius/Documents/GitHub/SpaceShooter/Assets/VisualizerStudio/Scripts/VisualizerStudio.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
