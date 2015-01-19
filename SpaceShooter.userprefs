@@ -1,13 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\AudioTest\Assets\AndroidMediaBrowser\Plugins\Audio.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\MediaPlayer\demo\MediaPlayerGUIManager.cs">
     <Files>
-      <File FileName="..\..\AudioTest\Assets\AndroidMediaBrowser\Examples\Picker\Picker.cs" Line="14" Column="22" />
-      <File FileName="..\..\AudioTest\Assets\AndroidMediaBrowser\Plugins\Audio.cs" Line="1" Column="1" />
-      <File FileName="..\..\AudioTest\Assets\AndroidMediaBrowser\Plugins\AmbAdapter.cs" Line="1" Column="1" />
-      <File FileName="..\..\AudioTest\Assets\AndroidMediaBrowser\Plugins\MediaBrowser.cs" Line="169" Column="3" />
-      <File FileName="..\..\AudioTest\Assets\Plugins\Android\AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="..\..\AudioTest\Assets\AndroidMediaBrowser\Editor\DefaultAndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\MediaPlayer\demo\MediaPlayerGUIManager.cs" Line="12" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
