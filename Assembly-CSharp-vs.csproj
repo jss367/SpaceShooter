@@ -55,15 +55,6 @@
      <Compile Include="Assets\5MinuteGUI\Scripts\MainMenu.cs" />
      <Compile Include="Assets\5MinuteGUI\Scripts\OptionsMenu.cs" />
      <Compile Include="Assets\5MinuteGUI\Scripts\Rotator.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Examples\Picker\Picker.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Examples\Query\Query.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Examples\TextureLoader\TextureLoader.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\AmbAdapter.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\Audio.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\Image.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\Media.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\MediaBrowser.cs" />
-     <Compile Include="Assets\AndroidMediaBrowser\Plugins\Video.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
      <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
@@ -79,7 +70,6 @@
      <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\MenuManager.cs" />
      <Compile Include="Assets\Modified5Menu.cs" />
-     <Compile Include="Assets\MusicPicker.cs" />
      <Compile Include="Assets\PlayMusic.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
@@ -92,8 +82,6 @@
      <Compile Include="Assets\Scripts\ParticleMover.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\RandomRotator.cs" />
-     <Compile Include="Assets\SongPicker.cs" />
-     <Compile Include="Assets\TestDel.cs" />
      <Compile Include="Assets\VisualizerStudio\Example Level\FrameRateLimiter.cs" />
      <Compile Include="Assets\VisualizerStudio\Example Level\KillTimer.cs" />
      <Compile Include="Assets\VisualizerStudio\Example Level\TestBallSpawnScalar.cs" />
@@ -129,14 +117,10 @@
      <Compile Include="Assets\s2.cs" />
      <Compile Include="Assets\streamer.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
-     <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\VisualizerStudio\Editor\VisualizerStudioEditor.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\VisualizerStudio\Scripts\VisualizerStudio.xml" />
-     <None Include="Assets\AndroidMediaBrowser\readme.txt" />
-     <None Include="Assets\AndroidMediaBrowser\Editor\DefaultAndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

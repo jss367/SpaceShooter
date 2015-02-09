@@ -48,14 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\MusicReader.js" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
-     <None Include="Assets\Space Shooter\Info.txt" />
      <None Include="Assets\VisualizerStudio\Editor\VisualizerStudioEditor.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\VisualizerStudio\Scripts\VisualizerStudio.xml" />
-     <None Include="Assets\AndroidMediaBrowser\readme.txt" />
-     <None Include="Assets\AndroidMediaBrowser\Editor\DefaultAndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

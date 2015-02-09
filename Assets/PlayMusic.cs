@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AndroidMediaBrowser;
 
 public class PlayMusic : MonoBehaviour {
 
-		Audio _track = null;
 		
 		void Start()
 		{

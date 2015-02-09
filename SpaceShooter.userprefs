@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\MediaPlayer\demo\MediaPlayerGUIManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController.cs">
     <Files>
-      <File FileName="Assets\Plugins\MediaPlayer\demo\MediaPlayerGUIManager.cs" Line="12" Column="3" />
+      <File FileName="Assets\Modified5Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="26" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
