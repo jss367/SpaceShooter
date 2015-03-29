@@ -13,3 +13,15 @@ Cmd: preprocess
   insize=2386 outsize=1259 ok=1
 Cmd: preprocess
   insize=1808 outsize=713 ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=848 outsize=853 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=848 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1317 outsize=2071 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1317 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1353 outsize=2202 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1353 outsize=6 kw= ok=1
